@@ -1,0 +1,116 @@
+{
+  "icons": {
+    "coin": "rbxassetid://85154962237207",
+    "shop": "rbxassetid://117649488991961",
+    "pets": "rbxassetid://71152104009404",
+    "rebirth": "rbxassetid://115466485963360",
+    "daily": "rbxassetid://84966123104287",
+    "gift": "rbxassetid://81100288443770",
+    "settings": "rbxassetid://106927955194837",
+    "codes": "rbxassetid://95799163160415",
+    "home": "rbxassetid://124869345150415",
+    "invite": "rbxassetid://104200300529598",
+    "vip": "rbxassetid://134443303559937",
+    "boost": "rbxassetid://73406646913784",
+    "luck": "rbxassetid://114516525892033",
+    "egg": "rbxassetid://139933316092239",
+    "speed": "rbxassetid://136150290416152",
+    "magnet": "rbxassetid://94107429081088",
+    "slots": "rbxassetid://90154731917181",
+    "triple": "rbxassetid://134526582517502",
+    "starter": "rbxassetid://82643975401389",
+    "music": "rbxassetid://112640153253527",
+    "sound": "rbxassetid://131867345937235",
+    "close": "rbxassetid://108489061207893",
+    "lock": "rbxassetid://116967071528171",
+    "check": "rbxassetid://73742207080824",
+    "candy": "rbxassetid://110822119750689",
+    "star": "rbxassetid://85613424832246"
+  },
+  "iconFiles512": {
+    "coin": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/coin.png",
+    "shop": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/shop.png",
+    "pets": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/pets.png",
+    "rebirth": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/rebirth.png",
+    "daily": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/daily.png",
+    "gift": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/gift.png",
+    "settings": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/settings.png",
+    "codes": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/codes.png",
+    "home": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/home.png",
+    "invite": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/invite.png",
+    "vip": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/vip.png",
+    "boost": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/boost.png",
+    "luck": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/luck.png",
+    "egg": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/egg.png",
+    "speed": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/speed.png",
+    "magnet": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/magnet.png",
+    "slots": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/slots.png",
+    "triple": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/triple.png",
+    "starter": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/starter.png",
+    "music": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/music.png",
+    "sound": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/sound.png",
+    "close": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/close.png",
+    "lock": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/lock.png",
+    "check": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/check.png",
+    "candy": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/candy.png",
+    "star": "c:/Users/utilisateur/Desktop/Jeux 2/3D roblox/icons/512/star.png"
+  },
+  "sounds": {
+    "music1": {
+      "id": "rbxassetid://9045684747",
+      "volume": 0.35
+    },
+    "music2": {
+      "id": "rbxassetid://1846743916",
+      "volume": 0.35
+    },
+    "purchase": {
+      "id": "rbxassetid://120891770644830",
+      "volume": 0.6
+    },
+    "collect": {
+      "id": "rbxassetid://130378474223829",
+      "volume": 0.5
+    },
+    "click": {
+      "id": "rbxassetid://106984966606682",
+      "volume": 0.5
+    },
+    "error": {
+      "id": "rbxassetid://91501650514390",
+      "volume": 0.45
+    },
+    "hatch": {
+      "id": "rbxassetid://9113959343",
+      "volume": 0.7
+    },
+    "reveal": {
+      "id": "rbxassetid://137298617974043",
+      "volume": 0.6
+    },
+    "legendary": {
+      "id": "rbxassetid://1836473787",
+      "volume": 0.6
+    },
+    "rebirth": {
+      "id": "rbxassetid://1848281810",
+      "volume": 0.6
+    },
+    "notify": {
+      "id": "rbxassetid://132377870366381",
+      "volume": 0.45
+    },
+    "build": {
+      "id": "rbxassetid://86074928120719",
+      "volume": 0.55
+    },
+    "reward": {
+      "id": "rbxassetid://88130568524452",
+      "volume": 0.6
+    },
+    "equip": {
+      "id": "rbxassetid://133564751966469",
+      "volume": 0.5
+    }
+  }
+}

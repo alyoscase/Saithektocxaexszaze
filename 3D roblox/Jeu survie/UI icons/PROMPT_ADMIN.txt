@@ -1,0 +1,28 @@
+Tu travailles sur le jeu Roblox « jeux 2 » (Universe ID 10776531097), ouvert dans Roblox Studio avec le compte qui POSSÈDE ce jeu.
+
+CONTEXTE
+Les icônes de l'interface (HUD, menu, boutique, livre des survivants, bulles des malades) sont des images listées dans le ModuleScript
+ReplicatedStorage.Shared.Config.Icons (une table clé → "rbxassetid://…").
+Ces images ont été envoyées par un autre compte (un collaborateur), donc Roblox refuse de les afficher dans ce jeu :
+« Requester does not have permission for Asset ». Résultat : toutes les icônes sont invisibles.
+Solution : renvoyer les 25 images depuis le compte propriétaire du jeu, puis remplacer les identifiants dans Config.Icons.
+
+FICHIERS
+Le dossier fourni contient 25 PNG (512×512, fond transparent). Correspondance fichier → clé de Config.Icons :
+Coin.png → Coins
+Tous les autres : même nom que la clé (Ether.png → Ether, Star.png → Star, etc.) :
+Ether, Star, Herb, Wood, Garlic, Tisane, Elixir, Vinegar, Theriac, Bag, Bed, Survivors, Hangar, Quest,
+Shop, Book, Travel, Home, Plaza, Castle, Cauldron, Hands, Mask, Gift
+
+CE QUE TU DOIS FAIRE
+1. Envoie les 25 PNG comme IMAGES sur Roblox avec le compte propriétaire du jeu
+   (Studio : View → Asset Manager → Bulk Import, ou l'API Open Cloud Assets).
+   Il faut l'ID de l'IMAGE, pas celui d'un Decal : dans l'Asset Manager, clic droit sur l'image → Copy Asset ID.
+2. Dans ReplicatedStorage.Shared.Config.Icons, remplace chaque valeur par "rbxassetid://<nouvel ID>" pour la bonne clé.
+   Ne change pas les clés, ne touche à aucun autre script.
+3. Vérifie : lance un test (Play), puis côté client, appelle ContentProvider:PreloadAsync sur toutes les valeurs de
+   Config.Icons → les 25 doivent être en Success, et la console ne doit plus afficher « Requester does not have permission »
+   pour ces images. À l'écran : pièce d'or à gauche des écus, icônes Voyager / Boutique / Survivants à droite.
+4. Sauvegarde le jeu (File → Save to Roblox).
+
+Indique à la fin les 25 nouveaux identifiants et le résultat de la vérification.
